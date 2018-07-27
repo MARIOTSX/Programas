@@ -22,13 +22,13 @@ public class Author {
 
 	}
 
-	public Author(String firstName, String lastName) {
-		this.firstName = firstName;
+	public Author(String FirstName, String lastName) {
+		this.firstName = FirstName;
 		this.lastName = lastName;
 	}
 
-	public Author(String firstName, String lastName, Set<Book> books) {
-		this.firstName = firstName;
+	public Author(String FirstName, String lastName, Set<Book> books) {
+		this.firstName = FirstName;
 		this.lastName = lastName;
 		this.books = books;
 	}
@@ -45,8 +45,8 @@ public class Author {
 		return firstName;
 	}
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setFirstName(String FirstName) {
+		this.firstName = FirstName;
 	}
 
 	public String getLastName() {
